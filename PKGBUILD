@@ -18,5 +18,6 @@ package() {
     cp -f *.rasi "$pkgdir/usr/bin/$pkgname-resources/"
     cp -f *.png "$pkgdir/usr/bin/$pkgname-resources/"
     cp -f *.jpeg "$pkgdir/usr/bin/$pkgname-resources/"
+    cp -f *.jpg "$pkgdir/usr/bin/$pkgname-resources/"
     chmod +777 *.* "$pkgdir/usr/bin/$pkgname-resources/"
 }
