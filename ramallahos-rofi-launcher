@@ -8,4 +8,5 @@ echo $num1 $num2
 theme="style-$num1"
 file="${dir}/${theme}.rasi"
 sed -i -e "s/@import .*/@import \"$num2.rasi\"/g" $file || true
+cd $dir
 rofi -show drun -theme $file
